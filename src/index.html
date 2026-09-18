@@ -4,10 +4,173 @@
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
+        <title>Fall break plans</title>
+
+        <script src="https://kit.fontawesome.com/409891a108.js" crossorigin="anonymous"></script>
+
     </head>
+
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <header>
+            <nav>
+                <div class="navbar_content">
+                    <a href="#home" class="logo">Fall Break in Hawaii</a>
+
+                    <ul class="navbar_class">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#why">Why Hawaii?</a></li>
+                      <li><a href="#plans">Plans</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <main>
+            <section id="home">
+                <div class="home_content">
+                   <h1>Fall Break in Hawaii</h1>
+                   <p>From November 22-26</p>
+                </div>
+            </section>
+
+
+            
+            <section id="why">
+                <div class="why_content">
+                   <h2>Why Hawaii?</h2>
+
+                   <div class = "why_column">
+
+
+                    <div class = "column">
+                      <i class="fa-regular fa-heart"></i>
+                      <h3>Weather</h3>
+                      <p>In the Oʻahu and Honolulu area, daytime temperatures in late November are usually around 27–28°C (81–82°F), while nighttime temperatures are typically around 21–23°C (70–73°F). 
+                        The weather is generally very comfortable. Evenings are especially pleasant for going out to dinner, walking around, or spending time outdoors.</p>
+                    </div>
+
+                    <div class = "column">
+                        <i class="fa-pixel fa-heart"></i>
+                        <h3>Experience</h3>
+                        <p>We can go snorkeling, hiking, take a sunset cruise, go horseback riding, visit the North Shore, go shopping, and try local food.</p>
+                    </div>
+
+                    <div class = "column">
+                      <i class="fa-regular fa-heart"></i>
+                      <h3>Food</h3>
+                      <p>Hawaii has many delicious local foods, such as poke, garlic shrimp, spam musubi, loco moco, and shave ice. We can also try fresh tropical fruits and local desserts like malasadas. It will be a great way to experience Hawaiian culture through food.</p>
+                   </div>
+                  </div>
+                </div>
+            </section>
+            <section id="plans">
+                <div class="plans_content">
+                   <h2>My Plans</h2>
+
+                   <div class = "plans_video">
+                    <video controls>
+                        <source src = "assets/Hawaii.mp4" type = "video/mp4">
+                    </video>
+                   </div>
+
+                   <div class = "carousel">
+                      <div class="slides_image">
+                        <div class="slide active">
+                            <img src="assets/Oahu Island.jpg" alt="Oahu Island">
+                            <h3>Where to Go</h3>
+                            <p>We could explore the Oahu Islands!</p>
+                        </div>
+
+                        <div class="slide">
+                            <img src="assets/airbnb.jpg" alt="Airbnb">
+                            <h3>Where to Stay</h3>
+                            <p>We could stay in an Airbnb!</p>
+                        </div>
+
+                        <div class="slide">
+                            <img src="assets/Limit.jpg" alt="Shopping">
+                            <h3>What to do</h3>
+                            <p>We could try the local food!Diving!Surfing!Shopping!</p>
+                        </div>
+                    </div>
+
+                      <button class="left_button" type="button">←</button>
+                      <button class="right_button" type="button">→</button>
+
+                      <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </div>
+
+                <div class="day_buttons">
+
+                  <button class="day_button" data-day="day1">
+                    <img src="assets/day1.jpg" alt="Day 1">
+                  </button>
+                  
+                  <div class = "modal" id = "day1">
+                    <div class = "modal_content">
+                       <button class = "close_button">x</button> 
+                        <img src="assets/day1.jpg" alt="Day 1">
+                        <h2>Day 1</h2>
+                        <p>Hotel check-in -> Waikiki Beach -> Lanai Lookout -> Halona Blowhole Lookout -> Halona Beach Cove </p>
+                    </div>
+                  </div>                        
+
+                  <button class="day_button" data-day="day2">
+                    <img src="assets/day2.jpg" alt="Day 2">
+                  </button>
+
+                  <div class = "modal" id = "day2">
+                    <div class = "modal_content">
+                       <button class = "close_button">x</button> 
+                        <img src="assets/day2.jpg" alt="Day 2">
+                        <h2>Day 2</h2>
+                        <p>Kailua Beach-> Lanikai Beach -> Lanikai Pillbox Trail -> Botanical Garden</p>
+                    </div>
+                  </div>  
+
+                  <button class="day_button" data-day="day3">
+                   <img src="assets/day3.jpg" alt="Day 3">
+                  </button>
+
+                  <div class = "modal" id = "day3">
+                    <div class = "modal_content">
+                       <button class = "close_button">x</button> 
+                        <img src="assets/day3.jpg" alt="Day 3">
+                        <h2>Day 3</h2>
+                        <p>Patagonia->pineapple garden->outlet->Ala Moana Shopping Center</p>
+                    </div>
+                  </div>  
+
+                </div>
+                </div>
+            </section>
+
+
+
+
+            <section id="contact">
+                <div class="contact_content">
+                   <h2>Contact Me</h2>
+                   <i class="fa-regular fa-envelope"></i>
+                   <p>Email: shuhan8@illinois.edu</p>
+                   <i class="fa-brands fa-instagram"></i>
+                   <p>Instagram: @_RBCZSH_ </p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Rebecca Zhao.</p>
+        </footer>
+
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     </body>
 </html>
